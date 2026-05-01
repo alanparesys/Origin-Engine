@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="include\Core\Maths\matrix4D.h" />
+    <ClCompile Include="include\Core\Maths\vector2D.h" />
+    <ClCompile Include="include\Core\Maths\vector3D.h" />
+    <ClCompile Include="src\Core\Debug\debug.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Core\Maths\matrix4D.cpp" />
+    <ClCompile Include="src\Core\Maths\vector2D.cpp" />
+    <ClCompile Include="src\Core\Maths\vector3D.cpp" />
+    <ClCompile Include="src\Core\Maths\vector4D.cpp" />
+    <ClCompile Include="src\Resources\resources_manager.cpp" />
+    <ClCompile Include="src\Resources\texture.cpp" />
+    <ClCompile Include="src\Resources\OBJLoader.cpp" />
+    <ClCompile Include="src\Resources\Mesh.cpp" />
+    <ClCompile Include="src\Resources\Shader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Core\Debug\debug.h" />
+    <ClInclude Include="include\Core\Maths\vector4D.h" />
+    <ClInclude Include="include\Resources\resources_manager.h" />
+    <ClInclude Include="include\Core\Debug\loader.h" />
+    <ClInclude Include="include\Resources\texture.h" />
+    <ClInclude Include="include\Resources\stb_image.h" />
+    <ClInclude Include="include\Resources\Shader.h" />
+    <ClInclude Include="include\Resources\Mesh.h" />
+    <ClInclude Include="include\Resources\OBJLoader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Textures\wooden_box.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Shaders\defaultFragment.glsl" />
+    <None Include="Assets\Shaders\defaultVertex.glsl" />
+  </ItemGroup>
+</Project>
